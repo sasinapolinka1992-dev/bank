@@ -138,7 +138,7 @@ export const BankTable: React.FC<BankTableProps> = ({
                                    <div className="flex justify-between items-start mb-2">
                                      <h5 className="font-bold text-gray-900 flex items-center gap-1">
                                         {prog.name}
-                                        {prog.autoRates && <Zap size={14} className="text-blue-500" title="Автоставки" />}
+                                         {prog.autoRates && <span title="Автоставки"><Zap size={14} className="text-blue-500" /></span>}
                                      </h5>
                                      <div className="text-xl font-bold text-primary">{prog.rate}%</div>
                                    </div>
