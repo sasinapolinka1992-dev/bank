@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Plus, Trash2, Edit2, CheckCircle, Upload, Zap } from 'lucide-react';
+import { X, Plus, Trash2, CheckCircle, Zap } from 'lucide-react';
 import { Bank, MortgageProgram } from '../types';
 import { Button } from './ui/Button';
 import { Switch } from './ui/Switch';
